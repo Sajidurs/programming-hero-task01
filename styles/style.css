@@ -1,6 +1,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 nav {
@@ -42,9 +44,10 @@ nav ul li a {
 nav {
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
-.primary_btn button {
+.primary_btn {
     border-radius: 5px;
     background: #FD6E0A;
     width: 150px;
@@ -56,4 +59,58 @@ nav {
     color: #fff;
     line-height: normal;
     cursor: pointer;
+}
+.secondary_btn {
+    border-radius: 5px;
+    background: #fd6f0a00;
+    width: 150px;
+    border: none;
+    height: 64px;
+    border: 1px solid #FD6E0A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FD6E0A;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+/* Banner CSS */
+.banner {
+    padding: 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.greeting_title {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+.name_title {
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    color: #181818;
+    line-height: normal;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.banner_paragraph{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    color: #868686;
+}
+.banner_content{
+    max-width: 750px;
 }

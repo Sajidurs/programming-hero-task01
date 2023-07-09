@@ -7,7 +7,53 @@ nav {
     display: flex;
 }
 
+.nav_title {
+    color: #181818;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+nav h3 span {
+    color: red;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1b1b1b;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 
+nav {
+    justify-content: space-between;
+    align-items: center;
+}
 
-
+.primary_btn button {
+    border-radius: 5px;
+    background: #FD6E0A;
+    width: 150px;
+    border: none;
+    height: 64px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: #fff;
+    line-height: normal;
+    cursor: pointer;
+}

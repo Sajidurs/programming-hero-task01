@@ -60,6 +60,7 @@ nav {
     line-height: normal;
     cursor: pointer;
 }
+
 .secondary_btn {
     border-radius: 5px;
     background: #fd6f0a00;
@@ -97,6 +98,7 @@ nav {
     line-height: normal;
     margin-bottom: 0px;
 }
+
 .name_title {
     font-size: 85px;
     font-style: normal;
@@ -106,11 +108,50 @@ nav {
     margin-top: 5px;
     margin-bottom: 10px;
 }
-.banner_paragraph{
+
+.banner_paragraph {
     margin-top: 5px;
     margin-bottom: 30px;
     color: #868686;
 }
-.banner_content{
+
+.banner_content {
     max-width: 750px;
+}
+
+/* About Me Section */
+.about_wrapper {
+    margin: 100px 100px;
+}
+
+.about_wrapper .about_content {
+    max-width: 1140px;
+    background: #FFF8F3;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.about_title {
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #515151;
+}
+.about_para{
+    max-width:800px;
+    text-align: center;
+    margin: 0 auto;
+    color: #757575;
+}
+.about_items{
+    display: flex;
+    justify-content: center;
+}
+.about_items p{
+    padding: 10px;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 20px;
 }

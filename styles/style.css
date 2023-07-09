@@ -242,3 +242,69 @@ margin-bottom: 100px;
     margin: 0 auto;
     text-align: center;
 }
+
+
+/* Footer CSS */
+.footer_wrapper{
+    background: #FFF8F3;
+}
+.footer_content{
+    max-width: 1150px;
+    padding: 100px 0px;
+    margin: 0 auto;
+}
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+}
+.foo_col_one h2{
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.foo_col_one p{
+    color:#474747;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+.foo_col_two h2{
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.foo_col_two input[type="text"] {
+    background-color: white;
+    width: 300px;
+    border: navajowhite;
+    height: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.foo_col_two input:focus {
+    border: none;
+}
+.foo_col_two input[type="email"] {
+    background-color: white;
+    width: 300px;
+    border: navajowhite;
+    height: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.foo_col_two textarea {
+    background-color: white;
+    width: 300px;
+    border: navajowhite;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.submit_btn{
+    display: block;
+}
